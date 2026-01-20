@@ -4,16 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Happy Birthday 🎉</title>
- <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <h1>🎂 Happy Birthday ra! 🎂</h1>
-  <p>Click the button 👇</p>
+  <p>Click the buttons 👇</p>
 
-  <!-- Alert Button -->
-  <button onclick="alert('Best Friend Forever 💖')">Click Me</button>
-  <button onclick="confettiEffect()">Click Me</button>
+  <!-- Top buttons in one line -->
+  <div class="top-buttons">
+    <button onclick="showAlert()">Best Friend</button>
+    <button onclick="confettiEffect()">Confetti</button>
+  </div>
 
   <!-- Wish Buttons -->
   <div class="container">
