@@ -1,13 +1,18 @@
+/* Body styles with gradient background */
 body {
     background: linear-gradient(to right, #ff9a9e, #fad0c4);
     font-family: Arial, sans-serif;
     text-align: center;
+    margin: 0;
+    padding: 50px 20px;
 }
 
+/* Container for wish buttons */
 .container {
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
+/* All buttons style */
 button {
     padding: 12px 20px;
     margin: 10px;
@@ -15,17 +20,22 @@ button {
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    background-color: #ffb6b9;
+    transition: 0.3s;
 }
 
+/* Hover effect for buttons */
 button:hover {
     background-color: #ff6f61;
     color: white;
 }
 
+/* Wish box styles */
 #wishBox {
     margin-top: 30px;
     font-size: 20px;
     background: white;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
 }
