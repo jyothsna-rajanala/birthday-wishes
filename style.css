@@ -7,6 +7,25 @@ body {
     padding: 50px 20px;
 }
 
+/* Headings */
+h1 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 18px;
+    opacity: 0.85;
+}
+
+/* Top buttons (same line) */
+.top-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
 /* Container for wish buttons */
 .container {
     margin-top: 30px;
@@ -39,7 +58,6 @@ button:hover {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-    animation: fadeIn 0.8s ease-in;
 }
 
 /* Fade in animation */
@@ -60,7 +78,6 @@ button:hover {
     top: -10px;
     width: 10px;
     height: 10px;
-    background-color: red;
     animation: fall linear infinite;
 }
 
@@ -70,3 +87,9 @@ button:hover {
         transform: translateY(100vh) rotate(360deg);
     }
 }
+
+
+
+
+
+
