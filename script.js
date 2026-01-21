@@ -1,7 +1,3 @@
-function showAlert() {
-    alert("Best Friend Forever 💖");
-}
-
 function showWish(option) {
     let wish = "";
 
@@ -16,12 +12,9 @@ function showWish(option) {
     }
 
     const box = document.getElementById("wishBox");
-
-    /* retrigger fade animation every time */
     box.style.animation = "none";
-    box.offsetHeight; // magic ✨
+    box.offsetHeight;
     box.style.animation = "fadeIn 0.8s ease-in";
-
     box.innerText = wish;
 }
 
@@ -44,9 +37,14 @@ function confettiEffect() {
     }
 }
 
+/* MAIN BUTTON LOGIC */
 function celebrate() {
     confettiEffect();
 
-    const randomWish = Math.floor(Math.random() * 3) + 1;
-    showWish(randomWish);
+    const box = document.getElementById("wishBox");
+    box.style.animation = "none";
+    box.offsetHeight;
+    box.style.animation = "fadeIn 0.8s ease-in";
+
+    box.innerText = "Best Friend Forever 💖";
 }
