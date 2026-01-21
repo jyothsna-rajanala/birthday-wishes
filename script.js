@@ -43,3 +43,10 @@ function confettiEffect() {
         }, 5000);
     }
 }
+
+function celebrate() {
+    confettiEffect();
+
+    const randomWish = Math.floor(Math.random() * 3) + 1;
+    showWish(randomWish);
+}
