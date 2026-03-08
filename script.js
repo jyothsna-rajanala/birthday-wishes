@@ -2,13 +2,13 @@ function showWish(option) {
   let wish = "";
 
   if (option === 1) {
-    wish = "Nuvvu naa life lo unna best gift ra 💖 Always stay happy!";
+    wish = "Today and everyday wishing only the best for you💞🫂";
   } 
   else if (option === 2) {
-    wish = "Birthday wishes cake kosam kadhu… nee kosam 😄 Party ekkada ra?";
+    wish = "Wishing you happiness , success and lots of beautiful moments this year🩷🤗";
   } 
   else if (option === 3) {
-    wish = "Nuvvu lekapothe naa life chala dull ga undedhi 🥹 Thanks for everything!";
+    wish = "I was going to get you a perfect gift but then i realized meeting me already a best gift😁💓";
   }
 
   const box = document.getElementById("wishBox");
@@ -41,7 +41,7 @@ function confettiEffect() {
 
 /* Celebrate button */
 function celebrate() {
-  alert("Best Friend Forever 💖");
+  alert("I Love Youuu Mohithuuu😘💖");
   confettiEffect();
 
   const box = document.getElementById("wishBox");
@@ -50,5 +50,5 @@ function celebrate() {
   box.classList.add("pop");
 
   box.innerText =
-    "🎉 Happy Birthday ra 💖 Nee life lo anni dreams fulfill avvali 🎂✨";
+    "You are such a special person in my life whom i cherish dearly may your birthday today bring you a step closer to realizing every beautiful dream of yours 💗💙✨";
 }
