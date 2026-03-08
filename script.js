@@ -21,15 +21,16 @@ function showWish(option) {
 
 /* Confetti */
 function confettiEffect() {
-  const colors = ["red", "yellow", "blue", "green", "pink"];
+  const hearts = ["💗","💖","💞","💕","💙","🩵"];
 
   for (let i = 0; i < 30; i++) {
     const confetti = document.createElement("div");
     confetti.classList.add("confetti");
     confetti.style.left = Math.random() * 100 + "vw";
     confetti.style.animationDuration = (Math.random() * 3 + 2) + "s";
-    confetti.style.backgroundColor =
-      colors[Math.floor(Math.random() * colors.length)];
+
+    confetti.innerText =
+      hearts[Math.floor(Math.random() * hearts.length)];
 
     document.body.appendChild(confetti);
 
