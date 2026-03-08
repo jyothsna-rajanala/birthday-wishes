@@ -13,24 +13,25 @@ function showWish(option) {
 
   const box = document.getElementById("wishBox");
   box.classList.remove("pop");
-  void box.offsetWidth; // retrigger animation
+  void box.offsetWidth;
   box.classList.add("pop");
 
   box.innerText = wish;
 }
 
-/* Confetti */
 function confettiEffect() {
-  const hearts = ["💗","💖","💞","💕","💙","🩵"];
+
+  const hearts = ["💗","💖","💞","💕","💙","🩵","💓"];
 
   for (let i = 0; i < 30; i++) {
+
     const confetti = document.createElement("div");
     confetti.classList.add("confetti");
+
     confetti.style.left = Math.random() * 100 + "vw";
     confetti.style.animationDuration = (Math.random() * 3 + 2) + "s";
 
-    confetti.innerText =
-      hearts[Math.floor(Math.random() * hearts.length)];
+    confetti.innerHTML = hearts[Math.floor(Math.random() * hearts.length)];
 
     document.body.appendChild(confetti);
 
@@ -40,9 +41,10 @@ function confettiEffect() {
   }
 }
 
-/* Celebrate button */
 function celebrate() {
+
   alert("I Love Youuu Mohithuuu😘💖");
+
   confettiEffect();
 
   const box = document.getElementById("wishBox");
@@ -51,5 +53,5 @@ function celebrate() {
   box.classList.add("pop");
 
   box.innerText =
-    "You are such a special person in my life whom i cherish dearly may your birthday today bring you a step closer to realizing every beautiful dream of yours 💗💙✨";
+  "You are such a special person in my life whom i cherish dearly may your birthday today bring you a step closer to realizing every beautiful dream of yours 💗💙✨";
 }
