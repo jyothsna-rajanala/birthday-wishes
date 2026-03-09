@@ -83,12 +83,7 @@ backgroundHearts();
 
 function celebrate() {
 
-  document.getElementById("bgMusic").play(); 
-  music.currentTime=0;
-  music.play();
-  // Music play
-
-  alert("I Love Youuu Mohithuuu😘💖");
+  alert("I Love Youuu Mohituuu 😘💖");
 
   confettiEffect();
 
