@@ -6,7 +6,7 @@ function showWish(option) {
     wish = "Today and everyday wishing only the best for you💞🫂";
   }
   else if (option === 2) {
-    wish = "Wishing you happiness , success and lots of beautiful moments this year🩷🤗";
+    wish = "Wishing you happiness , success and lots of beautiful moments from this year🩷🤗";
   }
   else if (option === 3) {
     wish = "I was going to get you a perfect gift but then i realized meeting me already a best gift😁💓";
